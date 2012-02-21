@@ -1,0 +1,98 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: export CFLAGS from dpkg-buildflags (origin: vendor): -g -O2
+dpkg-buildpackage: export CPPFLAGS from dpkg-buildflags (origin: vendor): 
+dpkg-buildpackage: export CXXFLAGS from dpkg-buildflags (origin: vendor): -g -O2
+dpkg-buildpackage: export FFLAGS from dpkg-buildflags (origin: vendor): -g -O2
+dpkg-buildpackage: export LDFLAGS from dpkg-buildflags (origin: vendor): -Wl,-Bsymbolic-functions
+dpkg-buildpackage: source package cw1-6005-po1g11
+dpkg-buildpackage: source version 1.0-1
+dpkg-buildpackage: source changed by Prinya Ovatlarnporn <po1g11@soton.ac.uk>
+ dpkg-source --before-build cw1-6005-po1g11-1.0
+dpkg-buildpackage: host architecture amd64
+ fakeroot debian/rules clean
+dh clean
+   dh_testdir
+   dh_auto_clean
+   dh_clean
+ dpkg-source -b cw1-6005-po1g11-1.0
+dpkg-source: warning: no source format specified in debian/source/format, see dpkg-source(1)
+dpkg-source: info: using source format `1.0'
+dpkg-source: info: building cw1-6005-po1g11 using existing cw1-6005-po1g11_1.0.orig.tar.gz
+dpkg-source: info: building cw1-6005-po1g11 in cw1-6005-po1g11_1.0-1.diff.gz
+dpkg-source: warning: ignoring deletion of directory src
+dpkg-source: warning: ignoring deletion of file src/rss_php.php
+dpkg-source: warning: ignoring deletion of file src/feeds.conf
+dpkg-source: warning: ignoring deletion of file src/index.php
+dpkg-source: warning: file cw1-6005-po1g11-1.0/rss_php.php has no final newline (either original or modified version)
+dpkg-source: warning: newly created empty file 'debian/docs' will not be represented in diff
+dpkg-source: warning: the diff modifies the following upstream files: 
+ feeds.conf
+ index.php
+ po1g11
+ po1g11-example
+ po1g11.1
+ rss_php.php
+dpkg-source: info: use the '3.0 (quilt)' format to have separate and documented changes to upstream files, see dpkg-source(1)
+dpkg-source: info: building cw1-6005-po1g11 in cw1-6005-po1g11_1.0-1.dsc
+ debian/rules build
+dh build
+   dh_testdir
+   dh_auto_configure
+   dh_auto_build
+   dh_auto_test
+ fakeroot debian/rules binary
+dh binary
+   dh_testroot
+   dh_prep
+   dh_installdirs
+   dh_auto_install
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+   dh_installexamples
+   dh_installman
+   dh_installcatalogs
+   dh_installcron
+   dh_installdebconf
+   dh_installemacsen
+   dh_installifupdown
+   dh_installinfo
+   dh_pysupport
+   dh_installinit
+   dh_installmenu
+   dh_installmime
+   dh_installmodules
+   dh_installlogcheck
+   dh_installlogrotate
+   dh_installpam
+   dh_installppp
+   dh_installudev
+   dh_installwm
+   dh_installxfonts
+   dh_installgsettings
+   dh_bugfiles
+   dh_ucf
+   dh_lintian
+   dh_gconf
+   dh_icons
+   dh_perl
+   dh_usrlocal
+   dh_link
+   dh_compress
+   dh_fixperms
+   dh_strip
+   dh_makeshlibs
+   dh_shlibdeps
+   dh_installdeb
+   dh_gencontrol
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package `cw1-6005-po1g11' in `../cw1-6005-po1g11_1.0-1_all.deb'.
+ dpkg-genchanges  >../cw1-6005-po1g11_1.0-1_amd64.changes
+dpkg-genchanges: including full source code in upload
+ dpkg-source --after-build cw1-6005-po1g11-1.0
+dpkg-buildpackage: full upload (original source is included)
+Now running lintian...
+W: cw1-6005-po1g11 source: debhelper-but-no-misc-depends cw1-6005-po1g11
+W: cw1-6005-po1g11: copyright-without-copyright-notice
+Finished running lintian.

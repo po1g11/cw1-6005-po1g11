@@ -1,0 +1,10 @@
+Package: cw1-6005-po1g11
+Version: 1.0-1
+Architecture: all
+Maintainer: Prinya Ovatlarnporn <po1g11@soton.ac.uk>
+Installed-Size: 31
+Section: x11
+Priority: optional
+Description: simple debian package
+ This package is a part of INFO 6005 coursework. Its task is to
+ grab all rss feeds to users.

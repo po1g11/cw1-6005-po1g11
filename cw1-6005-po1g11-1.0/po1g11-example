@@ -1,0 +1,32 @@
+My package provides the command line tool "cw1-6005-po1g11"
+
+To install:
+- Type  "dpkg -i cw1-6005-po1g11_1.0-all.deb"
+
+To read man page:
+- Type  "man po1g11"
+
+To read documuents (examples, changelog, copyright, README)
+- Go to "usr/share/doc/cw1-6005-po1g11" directory
+
+To use:
+- Type "po1g11" , the program will fetch 10 feeds from http://feeds.bbci.co.uk/news/rss.xml
+- Type "po1g11 --feeds url1 url2 ...  --items n" , the program will fetch n feeds from url1, url2 and so on.
+- Type "po1g11 --help" , the program will show help instruction.
+
+
+
+SVN repository
+- The URL of this project is "svn+ssh://po1g11@svn.forge.ecs.soton.ac.uk/projects/po1g11-info6005"
+- The URL of this project on ECS Forge is "https://forge.ecs.soton.ac.uk/projects/po1g11-info6005/"
+* You must be Dr.David Tarrant (dt2) in order to gain access to this project. If you are not Dr.Tarrant, please contact me at po1g11@soton.ac.uk so that I will enable you to be an admin of my project.
+
+
+
+Technical information
+
+1. After installation, a folder named "cw1-6005-po1g11" will be created inside "usr/share/" directory.
+
+2. index.php , rss_php.php and feeds.conf will be placed inside the "usr/share/cw1-6005-po1g11/" directory.
+
+3. A shell script named "po1g11" will be placed inside "usr/bin/" directory. This shell script will invoke the command "php index.php" when it is invoked by users via the command "po1g11" at the command line terminal.

@@ -1,0 +1,12 @@
+Source: cw1-6005-po1g11
+Section: x11
+Priority: optional
+Maintainer: Prinya Ovatlarnporn <po1g11@soton.ac.uk>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.9.2
+
+Package: cw1-6005-po1g11
+Architecture: all
+Description: simple debian package
+ This package is a part of INFO 6005 coursework. Its task is to
+ grab all rss feeds to users.

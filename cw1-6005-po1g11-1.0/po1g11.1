@@ -1,0 +1,29 @@
+.TH po1g11
+.SH NAME
+po1g11 \- a command line tool that gathers rss feeds online
+
+.SH SYNOPSIS
+.B po1g11
+[--feeds url1 url2 ...]
+[--items number_of_items]
+
+.SH DESCRIPTION
+.B po1g11
+gathers rss feeds from online resources and displays the results via the terminal.
+
+.SH OPTIONS
+.B --feeds url1 url2 ...
+.br
+.RS
+specify the target urls for the program to fetch rss feeds. If this option is not specified, the program will fetch rss feeds from http://feeds.bbci.co.uk/news/rss.xml
+.RE
+
+.TP
+.B --items number_of_items
+.br
+.RS
+specify the number of feeds to be displayed, If this option is not specified, the program will fetch 10 feeds by default.
+.RE
+
+.SH AUTHOR
+Prinya Ovatlarnporn <po1g11@soton.ac.uk>

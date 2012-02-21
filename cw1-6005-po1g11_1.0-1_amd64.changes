@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 10 Feb 2012 23:44:52 +0000
+Source: cw1-6005-po1g11
+Binary: cw1-6005-po1g11
+Architecture: source all
+Version: 1.0-1
+Distribution: unstable
+Urgency: low
+Maintainer: Prinya Ovatlarnporn <po1g11@soton.ac.uk>
+Changed-By: Prinya Ovatlarnporn <po1g11@soton.ac.uk>
+Description: 
+ cw1-6005-po1g11 - simple debian package
+Closes: 1000
+Changes: 
+ cw1-6005-po1g11 (1.0-1) unstable; urgency=low
+ .
+   * Initial release (Closes: #1000)
+Checksums-Sha1: 
+ dff2bea0baefdb0bed343692ace355ca4812e071 747 cw1-6005-po1g11_1.0-1.dsc
+ c939241e89b4dc3a245d4ed8a03ab89d0158b148 3859 cw1-6005-po1g11_1.0.orig.tar.gz
+ 3d4fc450160970461e72fc58ab22bb0001887302 5491 cw1-6005-po1g11_1.0-1.diff.gz
+ 357a5267d16d87b0cb1ff8c8d19ef1ca52b147f7 6834 cw1-6005-po1g11_1.0-1_all.deb
+Checksums-Sha256: 
+ 5c783ffd180c1d2735c5a990dca6a777e2f1008dcd64ef123bcf0900dd7acc1c 747 cw1-6005-po1g11_1.0-1.dsc
+ 0abce82e792f159912d435cd5e5909ed05724a1d092d375aa894484717677662 3859 cw1-6005-po1g11_1.0.orig.tar.gz
+ 4d87bcae90aed6f5f4f8bb92a4dbf60fe340964421fac6a01cd5bd24c882093e 5491 cw1-6005-po1g11_1.0-1.diff.gz
+ f158818053527cf78423fb07133cfc7e37c30920ce1d308f4d17adc92d37a75b 6834 cw1-6005-po1g11_1.0-1_all.deb
+Files: 
+ 7c62e83929e000b6d4023aba08136256 747 x11 optional cw1-6005-po1g11_1.0-1.dsc
+ e20d9db3ef678f0cc0a8f93512fd18b0 3859 x11 optional cw1-6005-po1g11_1.0.orig.tar.gz
+ b5ad5c8ae4312f24ca33688956519cff 5491 x11 optional cw1-6005-po1g11_1.0-1.diff.gz
+ 2a9ec3b09d369eee6d1694b39581ef24 6834 x11 optional cw1-6005-po1g11_1.0-1_all.deb
